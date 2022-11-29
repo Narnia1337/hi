@@ -141,7 +141,7 @@ end)
 
 local processing = false
 
-local function startTeleport()
+local function stawtTeleport()
 while true do
 if not hasteleportedithink then
 local s,e = pcall(function()
@@ -289,10 +289,10 @@ if isVici() then
     end)
     FarmViciousBee()
     wait(0.5)
-    startTeleport()
+    stawtTeleport()
     else
-    startTeleport()
+    stawtTeleport()
 end
 end)
 
-if not succ then startTeleport() Log("Vicious Bee Despawned","RED",true) end repeat wait() until game:IsLoaded()
+if not succ then stawtTeleport() Log("Vicious Bee Despawned","RED",true) end repeat wait() until game:IsLoaded()
