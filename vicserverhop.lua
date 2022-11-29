@@ -6,7 +6,7 @@ floatpad.Anchored = true
 floatpad.Transparency = 1
 floatpad.Name = "FloatPad"
 
-local loadedscript = game:HttpGet("https://raw.githubusercontent.com/Narnia1337/hi/main/vicseverhop.lua")
+local loadedscript = game:HttpGet("https://raw.githubusercontent.com/Narnia1337/hi/main/vicserverhop.lua")
 
 noclip = false
 local farmVici = false
