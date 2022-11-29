@@ -253,7 +253,7 @@ end
 local done = false
 
 game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
-    if State == Enum.TeleportState.InProgress then
+    if State == Enum.TeleportState.Started then
         if not done then
         local s,e = pcall(function()
         syn.queue_on_teleport(loadedscript) --repeat self
