@@ -6,7 +6,7 @@ floatpad.Anchored = true
 floatpad.Transparency = 1
 floatpad.Name = "FloatPad"
 
-local loadedscript = game:HttpGet("https://raw.githubusercontent.com/Narnia1337/hi/main/vicserverhop.lua")
+local loadedscript = game:HttpGet("")
 
 noclip = false
 local farmVici = false
@@ -141,7 +141,7 @@ end)
 
 local processing = false
 
-local function stawtTeleport()
+local function stawtTewepowt()
 while true do
 if not hasteleportedithink then
 local s,e = pcall(function()
@@ -236,7 +236,7 @@ local function Log(Text,Color,NewLine)
         rconsoleprint("@@"..Color.."@@")
     end
     if NewLine then rconsoleprint("\n") end
-    rconsolename("Macro v2 Serverhopper")
+    rconsolename("Kocmoc Serverhopper")
     rconsoleprint(Text)
 end
 
@@ -289,10 +289,10 @@ if isVici() then
     end)
     FarmViciousBee()
     wait(0.5)
-    stawtTeleport()
+    stawtTewepowt()
     else
-    stawtTeleport()
+    stawtTewepowt()
 end
 end)
 
-if not succ then stawtTeleport() Log("Vicious Bee Despawned","RED",true) end repeat wait() until game:IsLoaded()
+if not succ then stawtTewepowt() Log("Vicious Bee Despawned","RED",true) end repeat wait() until game:IsLoaded()
